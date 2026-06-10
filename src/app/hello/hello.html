@@ -2,9 +2,10 @@
 
 <h1>{{ title }}</h1>
 
-<button [disabled]="isDisabled" (click)="onClick()">Click me</button>
+<button [disabled]="isDisabled" (click)="onClick()">Toggle</button>
 
-<h1>{{ count() }}</h1>
+<h1>Count: {{ count() }}</h1>
+<h1>Double Count: {{ doubleCount() }}</h1>
 
 <button (click)="increaseCounter()">+</button>
 <button (click)="decreaseCounter()">-</button>
